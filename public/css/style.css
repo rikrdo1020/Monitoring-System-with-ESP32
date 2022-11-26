@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+#deviceOnline span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: green;
+}
+
+#deviceOffline span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.main{
+    background-color: rgb(231, 231, 231);
+}
+
+.main .widget{
+    background-color: white;
+    padding: 10px 0 0 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 2%;
+    margin: 0 10px 0 10px;
+    min-height: 100px;
+    text-align: center;
+}
+
+.center-items{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .min-height{
+    min-height: 100px;
+ }
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.h-custom {
+height: 100%;
+}
+
+.content-space{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
